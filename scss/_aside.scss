@@ -1,0 +1,20 @@
+$colorito:pink;
+$colr:azul;
+@mixin caja {
+    border:5px solid white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px;
+        
+}
+
+
+$color: azul;
+#aside{
+@if $color == rojo {
+background-color: red;
+} @else if $color == azul {
+    background-color: gray;
+} @else {
+    background-color: black;
+}
+}
